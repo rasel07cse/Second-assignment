@@ -100,6 +100,16 @@ img {
     color: white;
 }
 
+.steam-now {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.article-info {
+    padding: 20px;
+}
+
 /*---------------------
      Midle section 
 ------------------------- */
@@ -107,10 +117,20 @@ img {
 .midle-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr 3fr);
+    Width: 1321px;
+    column-gap: 24px;
+    margin-bottom: 106px;
+}
+
+.steaming-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
 }
 
 /* Streaming matches */
 .match-img img {
+    padding-top: 0;
     width: 312px;
     height: 175px;
 }
@@ -126,10 +146,6 @@ img {
     font-weight: 600;
 }
 
-.stream-now {
-    width: 312px;
-    height: 362px;
-}
 
 .time {
     display: flex;
@@ -138,10 +154,69 @@ img {
     height: 26px;
     width: 143px;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .t-image {
     height: 25px;
     width: 25px;
     margin-bottom: 10px;
+}
+
+/* Footer part */
+.bottom-section {
+    background-color: #161616;
+    height: 444px;
+    width: 100%;
+}
+
+.goal {
+    font-weight: 600;
+    font-size: 40px;
+    padding: 97px 0 20px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+hr {
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us h3 {
+    margin-right: 40px;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* our web site here */
+
+.p-icon {
+    color: blue;
+}
+
+.p-youtube {
+    color: red;
+}
+
+.gittu {
+    color: white;
+}
+
+.our-pages {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.icon-p {
+    margin-left: 22px;
+    font-size: 28px;
 }
