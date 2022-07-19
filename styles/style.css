@@ -1,0 +1,147 @@
+/* body  */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*--------------------
+    heading section
+--------------------- */
+.top-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    Width: 1321px;
+    Height: 646px;
+    background-color: #161616;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 130px;
+}
+
+.head-title {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.head-detail {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.watch-stream {
+    padding: 16px 25px;
+    position: absolute;
+    width: 187px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background: #DD0000;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+/* heading information */
+.head-info {
+    padding: 11px 0px 11px 106px;
+}
+
+.head-image,
+img {
+    width: 581px;
+    height: 613px;
+    padding-top: 15px;
+}
+
+
+/* -------------------
+    Menu button
+------------------  */
+.menu-buttons {
+    background-color: #161616;
+    border-radius: 10px;
+    height: 312px;
+    width: 312px;
+}
+
+.menu-button {
+    padding: 30px;
+    width: 252px;
+    height: 252px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+
+}
+
+.m-value {
+    width: 252px;
+    height: 64px;
+    color: #161616;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.selected-menu {
+    background: #DD0000;
+    color: white;
+}
+
+/*---------------------
+     Midle section 
+------------------------- */
+
+.midle-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 3fr);
+}
+
+/* Streaming matches */
+.match-img img {
+    width: 312px;
+    height: 175px;
+}
+
+.streaming-link {
+    padding: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.match-info {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.stream-now {
+    width: 312px;
+    height: 362px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 26px;
+    width: 143px;
+    justify-content: space-between;
+}
+
+.t-image {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+}
