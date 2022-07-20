@@ -238,15 +238,24 @@ hr {
 }
 
 .p-icon {
-    color: blue;
+    color: rgb(29, 29, 211);
 }
 
 .p-youtube {
     color: red;
 }
 
+.t-icon {
+    color: rgb(8, 148, 241);
+}
+
+.l-icon {
+    color: rgb(16, 86, 143);
+}
+
 .gittu {
     color: white;
+    background-color: black;
 }
 
 .our-pages {
@@ -309,13 +318,14 @@ hr {
         grid-template-columns: repeat(1, 1fr);
         display: flex;
         flex-direction: column;
-        align-items: center;
         border-radius: 10px;
     }
 
-    .watch-stream {
-        margin-left: 90px;
+    .wl {
+        text-align: center;
     }
+
+    .watch-stream {}
 
     .menu-buttons {
         background-color: white;
@@ -373,7 +383,7 @@ hr {
     }
 
     .steam-now {
-        margin: 0;
+        margin-top: 20px;
     }
 
 
@@ -390,6 +400,7 @@ hr {
         background-color: white;
         height: 20px;
         margin-bottom: 100px;
+
     }
 
     .m-value {
@@ -418,5 +429,10 @@ hr {
 
     .about-us {
         margin-left: 28px;
+    }
+
+    .match-img img {
+        width: 100%;
+        border-radius: 10px 20px 0px 0;
     }
 }
