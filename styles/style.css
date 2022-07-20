@@ -30,7 +30,7 @@ main {
 
 .head-title {
     color: white;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 700;
     margin-bottom: 0%;
 }
@@ -39,7 +39,7 @@ main {
     font-size: 1em;
     font-weight: 400;
     margin-bottom: 20px;
-    margin-top: 0;
+    margin-top: 20px 0 40px 0;
 }
 
 .watch-stream {
@@ -268,8 +268,19 @@ hr {
         align-items: center;
     }
 
+    .head-info {
+        padding: 28px 68px 0 38px;
+    }
+
+    .head-image {
+        padding: 0 29px 0 30px;
+    }
+
+
     .top-section {
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
+        align-items: center;
     }
 
     .menu-buttons {
@@ -287,6 +298,10 @@ hr {
     .about-us {
         display: grid;
     }
+
+    .article-info {
+        width: 320px;
+    }
 }
 
 /*--------------
@@ -297,8 +312,30 @@ hr {
         width: 100%;
     }
 
+    .top-section {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .head-title {
+        margin-top: -28px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .head-detail {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .steam-now {
+        margin: 0;
+    }
+
 
     .midle-section {
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -314,9 +351,8 @@ hr {
 
     .m-value {
         height: 64px;
-        width: 230px;
+        width: 210px;
         margin-right: 22px;
-
     }
 
 
@@ -324,7 +360,20 @@ hr {
         visibility: visible;
     }
 
+    .view-option {
+        text-align: center;
+    }
+
     .steaming-match {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .sth {
+        display: none;
+    }
+
+    .about-us {
+        margin-left: 28px;
     }
 }
