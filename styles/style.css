@@ -263,9 +263,12 @@ hr {
     Mobile 
 --------------- */
 @media only screen and (max-width: 688px) {
+    main {
+        width: 100%;
+    }
+
     .container {
         width: 100%;
-        align-items: center;
     }
 
     .head-info {
@@ -280,6 +283,17 @@ hr {
 
     .head-detail {
         text-align: center;
+    }
+
+    .elip {
+        height: 75px;
+        overflow: hidden;
+        margin-bottom: 36px;
+    }
+
+    .elips {
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .head-image {
@@ -300,15 +314,18 @@ hr {
     }
 
     .watch-stream {
-        margin-left: 53px;
-        justify-content: center;
+        margin-left: 90px;
     }
 
     .menu-buttons {
         background-color: white;
+        align-items: center;
     }
 
     .midle-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -321,7 +338,12 @@ hr {
     }
 
     .article-info {
-        width: 320px;
+        width: 360px;
+    }
+
+    .match-img img {
+        width: 100%;
+        border-radius: 10px 20px 0 0;
     }
 }
 
